@@ -24,22 +24,27 @@ Include the library in your HTML file:
 
 Or install and import it in Node.js:
 
+```javascript
 const llinqu = require('llinqu');
+```
 
-Usage
+## Usage
 
 Minify code for a specific language by calling:
 
+```javascript
 const minifiedJs = llinqu.javascript(jsCode);
 const minifiedCss = llinqu.css(cssCode);
 const minifiedHtml = llinqu.html(htmlCode);
+```
 
-API Overview
+## API Overview
 
 Main Minify Functions
 
 All languages are accessible under llinqu namespace as functions:
 
+```javascript
 llinqu.javascript(code);
 llinqu.css(code);
 llinqu.html(code);
@@ -49,25 +54,30 @@ llinqu.python(code);
 llinqu.sql(code);
 llinqu.xml(code);
 llinqu.universal(code);
+```
 
-Additional Utilities
+## Additional Utilities
 
 Selected languages offer helpful utilities:
 
+```javascript
 llinqu.json.prettify(jsonCode);
 llinqu.json.validate(jsonCode);
 llinqu.python.validate(pythonCode);
 llinqu.sql.analyze(sqlCode);
 llinqu.xml.prettify(xmlCode);
+```
 
-Example
+**Example**
 
+```javascript
 const rawJs = // Example JavaScript function add(a, b) { return a + b; // returns sum };
 
 const minified = llinqu.javascript(rawJs);
 console.log(minified);
 // Outputs: function add(a,b){return a+b;}
+```
 
-Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the issues page or submit pull requests.
