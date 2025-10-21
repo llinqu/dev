@@ -8,4 +8,3 @@ Clone the git repository and `cd` into it
 git clone https://github.com/llinqu/dev.git
 cd dev/
 ```
-
