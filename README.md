@@ -1,6 +1,7 @@
 <div align="center">
   <img width="200" height="100" alt="image" src="https://github.com/user-attachments/assets/c662642a-3e53-4c97-8433-b912d5389399" />
   <h1>llinqu - Universal Code Minifier Library</h1>
+  <b>JS developer utilities for llinqu minifier</b>
   <hr /><br />
 </div>
 
